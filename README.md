@@ -1,10 +1,11 @@
 # metadataSupermicroServers_python
 
 Project name: Supermicro Server Inventory Extraction Pipeline
+
 ![alt text](https://github.com/sergiogutierrez2/metadataSupermicroServers_python/blob/main/pythonmakeserial1and2.png)
 ![alt text](https://github.com/sergiogutierrez2/metadataSupermicroServers_python/blob/main/pythononeFilesRequired.png)
 
-Summary of the project:
+-------------------------------------Summary of the project-------------------------------------
 
 Together, the two python scripts (make_serial_list.py and make_serial_lis2.py), form a simple data-processing pipeline: the first script reads the detailed origin1.xlsx file (which contains many repeated rows per server) and extracts a clean list of unique serial numbers, generating a structured template output1.xlsx with only the “Serial Number” column filled; the second script then takes that template, looks up each serial number back in origin1.xlsx, pulls relevant information such as model, BMC user/password, and various MAC addresses based on specific sub-item rules, and fills in the remaining columns—resulting in a final, organized spreadsheet with one complete row per server.
 
