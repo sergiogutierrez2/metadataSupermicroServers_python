@@ -1,7 +1,6 @@
 # metadataSupermicroServers_python
 
-This was a 3 Day Javascript Project designing a Memory Game.
-The theme was about different cat species. 
+Project name: Supermicro Server Inventory Extraction Pipeline
 
 ![alt text](https://github.com/sergiogutierrez2/metadataSupermicroServers_python/blob/main/python1tile.jpg)
 ![alt text](https://github.com/sergiogutierrez2/metadataSupermicroServers_python/blob/main/pythononeFilesRequired.png)
