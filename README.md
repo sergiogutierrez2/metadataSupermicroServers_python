@@ -1,8 +1,7 @@
 # metadataSupermicroServers_python
 
 Project name: Supermicro Server Inventory Extraction Pipeline
-
-![alt text](https://github.com/sergiogutierrez2/metadataSupermicroServers_python/blob/main/python1tile.jpg)
+![alt text](https://github.com/sergiogutierrez2/metadataSupermicroServers_python/blob/main/pythonmakeserial1and2.png)
 ![alt text](https://github.com/sergiogutierrez2/metadataSupermicroServers_python/blob/main/pythononeFilesRequired.png)
 
 Summary of the project:
@@ -20,3 +19,8 @@ Here's a workflow of what these Python scripts do and how they interact with the
 8- It maps those extracted values into the correct target columns in output1.xlsx, such as Model, BMC Password, BMC MAC (1G), and the NIC MAC fields.
 9- The second script writes the completed results back into output1.xlsx, or into a timestamped copy if the file is open and locked.
 10- Final result: output1.xlsx becomes a clean, one-row-per-server sheet populated from the detailed source workbook.
+
+
+
+
+![alt text](https://github.com/sergiogutierrez2/metadataSupermicroServers_python/blob/main/python1tile.jpg)
